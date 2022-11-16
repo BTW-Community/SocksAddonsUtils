@@ -3,35 +3,39 @@ If you are an add-on developer and want to make use of these hooks in your code,
 
 Base Class edits:
 ```
-Item
-Block
-SlotArmor
-GuiIngame
-
-FCBlockLeaves       
-FCBlockFlowerBlossom
-FCBlockTallGrass    
-FCBlockVine         
-FCBlockSnowCover   
-
-WorldGenShrub
-WorldGenForest
-FCUtilsTrees 
-
-FCWorldGeneratorBonusBasket
-ComponentScatteredFeatureSwampHut
-ComponentScatteredFeatureDesertPyramid
-ComponentScatteredFeatureJunglePyramid
-ComponentMineshaftCorridor
-WorldGenDungeons
-ComponentVillageHouse2
-ComponentStrongholdChestCorridor
-ComponentStrongholdLibrary
-ComponentStrongholdRoomCrossing  
-
-BiomeGenBase
-GenLayerRiverMix
-GenLayerShore
+    	Item
+    	Block
+    	SlotArmor
+      GuiIngame (Client only)
+      
+    	FCBlockLeaves
+    	FCBlockFlowerBlossom
+    	FCBlockTallGrass
+    	FCBlockVine
+    	FCBlockSnowCover
+      
+    	WorldGenShrub
+    	WorldGenForest
+    	WorldGenHugeTrees
+    	WorldGenBigTree
+    	WorldGenTaiga2
+    	FCUtilsTrees
+      
+    	FCWorldGeneratorBonusBasket
+    	WorldGenDesertWells
+    	ComponentScatteredFeatureSwampHut
+    	ComponentScatteredFeatureDesertPyramid
+    	ComponentScatteredFeatureJunglePyramid
+    	ComponentMineshaftCorridor
+    	WorldGenDungeons
+    	ComponentVillageHouse2    	
+    	ComponentStrongholdChestCorridor
+    	ComponentStrongholdLibrary
+    	ComponentStrongholdRoomCrossing
+      
+    	BiomeGenBase
+    	GenLayerRiverMix
+    	GenLayerShore
 ```
 This "small" utility add-on adds the following hooks:
 
